@@ -1,5 +1,5 @@
 {% set name = "dvc-hdfs" %}
-{% set version = "2.19.0" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bce4b5a3633d018e795d196227714f30bdd701ac5f4c2a627f731b74d43f4aee
+  sha256: 286443cb2c107ad53e73d8d6c4af8524b6e3b6b88b1543c8bc0544738aeb9fee
 
 build:
   noarch: python
